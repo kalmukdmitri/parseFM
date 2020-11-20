@@ -251,7 +251,7 @@ for i in clean_table:
 queru = queru[:-1]
 queru += ";"
 add_data(queru,passW)
-log_table = [["Данные на отправлены","ОК"]]
+log_table.append([["Данные на отправлены","ОК"]])
 timetook = str(datetime.datetime.now() - timer)
 log_table.append(['Выполнение заняло',timetook])
 log = GoogleListextract('media_FM log','log')
