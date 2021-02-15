@@ -130,8 +130,9 @@ driver.get("http://google.com/")
 print("Headless Firefox Initialized")
 print(str(next_date))
 driver.get("https://yandex.ru/")
+
 ses = {'name': 'Session_id',
-  'value': '3:1605474056.5.0.1600760878817:Mz6HWA:86.1|490782294.567919.2.2:567919|1130412051.1206811.2.2:1206811|225899.843718.zNmkECKd_JPnBviEvSXwPoft66g',
+  'value': '3:1613343726.5.0.1610322128945:Az6HWA:4f.1|490782294.0.2|642461710.164814.2.2:164814|739923726.946886.2.2:946886|230281.135339.qCx6VGCwDkYyG2QOmLh2ppTo-hI',
   'path': '/',
   'domain': '.yandex.ru',
   'secure': False,
